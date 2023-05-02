@@ -1,5 +1,7 @@
 # Teste De Aplicação Empresa ONI learning
 
+### OBS: O banco de dados está na pasta src/main/resources/db
+
 Criar um CRUD em MVC para cadastro de fornecedores e produtos que este
 fornecedor trabalha. Não é necessário o uso de nenhum template de interface.
 
@@ -34,3 +36,14 @@ necessários para a execução dele.
 | ID Fornecedor                |            |
 | Valor                        |            |
 | Data de Cadastro             |            |
+
+# Pré-requisitos
+- JDK (versão 11+)
+- Maven (versão 3+)
+
+# Instalação
+
+- Clone o repositório: git clone https://github.com/hadesfranklyn/TesteDeAplicacaoCRUD_Empresa_ONI_learning.git
+- Navegue para o diretório do projeto: cd seu-projeto
+- Compile o projeto: mvn compile
+- Execute o projeto: mvn exec:java
